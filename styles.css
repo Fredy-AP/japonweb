@@ -1,0 +1,27 @@
+/* Eliminar márgenes y paddings predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de fondo del body */
+body {
+   background-color: rgb(176, 196, 0);
+   font-family: Arial, sans-serif;
+}
+
+/* Asegurar márgenes laterales para la responsividad */
+.container {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+/* Justificar texto para párrafos */
+.text-justify {
+    text-align: justify;
+}
+
+/* Ajustar el tamaño del texto */
+.lh-1 {
+    line-height: 1.5; /* Ajustar el espaciado entre líneas si es necesario */
+}
